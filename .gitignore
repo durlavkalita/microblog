@@ -1,0 +1,10 @@
+venv
+
+migrations
+
+logs
+
+__pycache__
+
+app.db
+microblog.log*
