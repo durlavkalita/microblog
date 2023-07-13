@@ -4,8 +4,7 @@ from flask_login import UserMixin
 from hashlib import md5
 from time import time
 import jwt
-from app import db
-from app import login
+from app import db, login
 
 followers = db.Table('followers',
     db.Column('follower_id', db.Integer, db.ForeignKey('user.id')),
